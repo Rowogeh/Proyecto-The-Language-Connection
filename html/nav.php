@@ -5,6 +5,83 @@
 	<li><a href="#"><i class="fa fa-image"></i></a></li>-->
 	
 </ul>
+
+
+<script src="../js/script.js"></script>
+
+	<header>
+		<img src="../img/TLCLOGOwhite.png">
+		<nav class="navigation">
+			<a href="#">Inicio</a>
+			<a href="#">Nosotros</a>
+			<a href="#">Cursos</a>
+			<a href="#">Contacto</a>
+			<button class="btnloginpopup">Inicio</button>
+		</nav>
+	</header>
+
+	<div class="wrapper">
+		<span class="icon-close"> <i class="fas fa-arrow-alt-circle-right"></i></span>
+		<div class="form-box login">
+			<h2>Iniciar Sesión</h2>
+				<form action="#"></form>
+					
+					<div class="input-box">
+						<span class="icon"> <i class="fas fa-user"></i></span>
+						<input type="username" required>
+						<label>Usuario</label>
+					</div>
+
+					<div class="input-box">
+						<span class="icon"><i class="fas fa-lock"></i></span>
+						<input type="password" required>
+						<label>Contraseña</label>
+					</div>
+
+					<button type="summit" class="btn">Iniciar Sesión</button>
+
+					<div class="login-register">
+						<p>
+							<a href="#" class="register-link">Recuperar Contraseña</a>
+						</p>
+					</div>
+		</div>
+
+		<div class="form-box register">
+			<h2>Recuperar Contraseña</h2>
+				<form action="#"></form>
+					
+					<div class="input-box">
+						<span class="icon"> <i class="fas fa-user"></i></span>
+						<input type="username" required>
+						<label>Nombre de Usuario</label>
+					</div>
+
+					<div class="input-box">
+						<span class="icon"><i class="fas fa-lock"></i></span>
+						<input type="password" required>
+						<label>Pregunta Secreta</label>
+					</div>
+
+					<div class="input-box">
+						<span class="icon"><i class="fas fa-lock"></i></span>
+						<input type="password" required>
+						<label>Respuesta Secreta</label>
+					</div>
+
+					<button type="summit" class="btn">Iniciar Sesión</button>
+
+					<div class="login-register">
+						<p>
+							<a href="#" class="login-link">Iniciar Sesión</a>
+						</p>
+					</div>
+		</div>
+
+
+	</div>
+
+
 <div class="button">
 	<a class="btn-open" href="#" style="color: #fff;"><i class="fa fa-bars"></i></a>
 </div>
@@ -54,3 +131,5 @@
 		</div>
 	</div>
 </div>
+
+<script src="../js/script.js"></script>
