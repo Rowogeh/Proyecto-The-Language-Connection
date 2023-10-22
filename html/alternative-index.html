@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!--<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>The language Connection</title>
-	<link rel="stylesheet" href="../css/estilo.css">
-	<link rel="stylesheet" type="text/css" href="../css/all.css">-->
 	<?php include ('head.html');?>
 </head>
 
@@ -27,17 +21,17 @@
 		<span class="icon-close"> <i class="fas fa-arrow-alt-circle-right"></i></span>
 		<div class="form-box login">
 			<h2>Iniciar Sesión</h2>
-				<form action="#"></form>
+				<form action="#" id="iniciar" class="contactform" autocomplete="off">
 					
 					<div class="input-box">
 						<span class="icon"> <i class="fas fa-user"></i></span>
-						<input type="username" required>
+						<input id="usuario" type="text" required>
 						<label>Usuario</label>
 					</div>
 
 					<div class="input-box">
 						<span class="icon"><i class="fas fa-lock"></i></span>
-						<input type="password" required>
+						<input  id="clave" type="password" required>
 						<label>Contraseña</label>
 					</div>
 
@@ -48,31 +42,32 @@
 							<a href="#" class="register-link">Recuperar Contraseña</a>
 						</p>
 					</div>
+				</form>	
 		</div>
 
 		<div class="form-box register">
 			<h2>Recuperar Contraseña</h2>
-				<form action="#"></form>
+				<form action="#" id="reclave" class="contactform" autocomplete="off"></form>
 					
 					<div class="input-box">
 						<span class="icon"> <i class="fas fa-user"></i></span>
-						<input type="username" required>
+						<input id="usu" name="usu" type="username" required>
 						<label>Nombre de Usuario</label>
 					</div>
 
 					<div class="input-box">
 						<span class="icon"><i class="fas fa-lock"></i></span>
-						<input type="password" required>
+						<input  id="pre" name="pre" type="text" required>
 						<label>Pregunta Secreta</label>
 					</div>
 
 					<div class="input-box">
 						<span class="icon"><i class="fas fa-lock"></i></span>
-						<input type="password" required>
+						<input id="res" name="res" type="text" required>
 						<label>Respuesta Secreta</label>
 					</div>
 
-					<button type="summit" class="btn">Iniciar Sesión</button>
+					<button id="submit" form="reclave" type="summit" class="btn">Iniciar Sesión</button>
 
 					<div class="login-register">
 						<p>
