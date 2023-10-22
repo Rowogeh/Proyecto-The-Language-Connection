@@ -1,0 +1,98 @@
+.cap{
+  text-transform: capitalize;
+}
+
+.up{
+	text-transform: uppercase;
+}
+
+.pt{
+	padding-top: 5px;
+}
+
+#h3{
+  text-align: center;
+  font-family: Arial;
+}
+
+#banner{
+  display: inline;
+  text-align: center;
+}
+
+#sBanner{
+  display: inline;
+  text-align: justify;
+}
+
+#banner img{
+  width: 26em;
+  height: 5em;
+}
+
+#top{
+  text-align: center;
+  margin-top: 80px;
+  width: 100%;
+}
+
+#bottom{
+  vertical-align: text-bottom;
+  text-align: center;
+  margin-top: 120px;
+}
+
+#bottom-sm{
+  text-align: center;
+  width: 100%;
+  margin-top: 60px;
+  display: inline;
+}
+
+#top > p{
+  text-indent: 3em;
+}
+
+#space{
+  margin-left: -400px;
+  width: 700px;
+}
+
+#fn-md{
+  font-family: Arial;
+  font-size: 14px;
+}
+
+#fn-sm{
+  font-family: Arial;
+  font-size: 10px;
+}
+
+#fn-xs{
+  font-family: Arial;
+  font-size: 9px;
+}
+
+#fn-sm-k{
+  font-size: 9px;
+  font-style: italic;
+}
+
+.tableC{
+  border: 1px solid #dbdbdb;
+  border-width: 0 0 1px;
+  font-size: 12px;
+  font-weight: 250;
+  line-height: 1.4532689;
+  background-image: none;
+}
+
+.tableN{
+  border-width: 0 0 1px;
+  font-size: 12px;
+}
+
+.tableN td{
+  text-align: center;
+  width: 2em;
+}
