@@ -12,8 +12,9 @@ if(($_COOKIE['usu'] == null) || ($_COOKIE['nom']) == null || ($_COOKIE['ape']) =
 </head>
 <body>
 	
+		
 
-	<?php include('nav.php');
+	<?php include('alternative-index.php');
 
 	include 'footer2.php';
 	?>

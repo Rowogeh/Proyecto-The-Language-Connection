@@ -4,13 +4,14 @@
 	<?php include 'head.html' ?>
 </head>
 
-<body id="background">
+<body>
 
-	<?php include 'nav.php' ?>
+	<?php include 'alternative-index.html' ?>
 
 	<?php //include 'footer.php'; ?>  
 
 	<script src="../js/links.js"></script>
+  <script src="../js/script.js"></script>
 
 </body>
 </html>
